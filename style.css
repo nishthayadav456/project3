@@ -1,0 +1,280 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    display: flex;
+}
+.navbar{
+height:50px;
+
+ box-shadow:0px 0px 10px 5px gainsboro ;
+ font-family: 'Times New Roman', Times, serif;
+ padding-top:10px;
+ padding-bottom: 10px;
+ padding-left: 70px;
+ font-weight: bold;
+ font-size: 30px;
+
+}
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.header1{
+    color:#00A5EC;
+}
+.middle{
+    background-color: #F7F7F7;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top:25px ;
+    padding-right: 30px;
+    height: 600px;
+
+}
+.middle:hover{
+    box-shadow: inset 0px 5px 10px 5px rgb(211,206,206);
+}
+.circle{
+    background-color: #00A5EC;
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+    margin-left: 1000px;
+    color:white;
+   
+    
+}
+.plusicon{
+    width:50%;
+    height:50px;
+    top:40px;
+    background: solid black;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    padding: 10px;
+    color:bisque
+    
+}
+.addnewtask{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    margin-right: 300px;
+    position: relative;
+    bottom:50px;
+    font-size: 20px;
+    height: 80px;
+    width: 180px;
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap:40px;
+    justify-content: flex-start;
+    padding-left: 150px;
+    padding-top: 50px;
+   
+
+}
+.box{
+    height: 200px;
+    width: 300px;
+   
+    border-radius: 10px;
+    background: #FFFFFF;
+
+}
+.box:hover{
+    box-shadow: 0px 0px 20px gray;
+}
+h2{
+    color: #00A5EC;
+    top:220px;
+    padding: 10px 0px 0px 10px;
+    text-decoration: none;
+}
+.check1{
+    color: #C2C2C2;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+.check2{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.Add{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #404040;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left: 20px;;
+}
+.con5{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+input[type=text]{
+    width:90%;
+    height:30px;
+    color:#EDEDED;
+}
+.box6{
+    height:250px;
+    width:500px;
+    display: inline-block;
+    flex-wrap: wrap;
+     margin:50px;
+    border-radius: 10px;
+    background:  #FFFFFF;
+    position:relative;
+    left: 400px;
+    bottom:600px;
+   
+}
+.box6:hover{
+    box-shadow:  0px 0px 10px grey; 
+   
+}
+
+.button2{
+    width: 200px;
+    height: 40px;
+    background-color:#00A5EC;
+    font-size: 20px;
+    border-radius: 2px;
+    border: 2px ;
+     box-shadow: 5px 6px;
+    color:#FFFFFF;
+    position:relative;
+    top:70px;
+    left:270px;
+    text-align: center;
+   
+   
+}
+.secondpage{
+    position: relative;
+    left:300px;
+    text-decoration: none;
+    color:  #404040;
+}
+.parent{
+    filter: blur(5px);
+    /*background-color:grey;*/
+}
+ .thirdpage{
+    position: absolute;
+    left:600px;
+    bottom:200px; 
+
+} 
+.circle2{
+    background-color: #424242;
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+    color:white;
+    position: absolute;
+    bottom:450px;
+    left: 550px;
+   
+
+}
+.backicon{
+   
+    font-size: 30px;
+    padding: 10px ;
+    color: white;
+   
+    
+}
+.back{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    bottom:20px;
+    left:60px;
+}
+
+.thead2{
+    position: relative;
+    right:200px;
+   top:100px;
+}
+.box1{
+    position: relative;
+    top:450px;
+    left:200px;
+}
+@media  screen and (max-width:500px){
+.middle{
+    flex-direction: column;
+    height:2000px;
+    
+}
+
+
+
+.box{
+    position: relative;
+    right:130px;
+}
+.container{
+    width:200px;
+}
+.circle{
+position: relative;
+right:900px;
+}
+.addnewtask{
+    display: none;
+}
+.box6{
+height:200px;
+width:250px;
+position:absolute;
+top:100px;
+left:2px;
+}
+.button2{
+    position: relative;
+    left:80px;
+    top:20px;
+    width:150px;
+}
+.secondpage{
+    position:relative;
+    left:70px;
+}
+.box1{
+ 
+  position: fixed;
+  left:80px;
+  top:200px;
+    width:200px;
+}
+.circle2{
+    position: absolute;
+    left:50px;
+}
+.con{
+    position: absolute;
+    left:300px;
+    bottom:30px;
+}
+
+}
+
+    
